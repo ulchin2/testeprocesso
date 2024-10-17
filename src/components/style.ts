@@ -1,7 +1,6 @@
-// style.ts
 import styled from 'styled-components';
 
-// Estilizando o container do formulário
+
 export const FormContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -14,21 +13,20 @@ export const FormContainer = styled.div`
   max-width: 400px;
 `;
 
-// Estilizando o título
+
 export const Title = styled.h1`
   color: #333;
   font-size: 24px;
   margin-bottom: 20px;
 `;
 
-// Estilizando o rótulo do input
 export const Label = styled.label`
   margin-bottom: 10px;
   font-size: 16px;
   color: #555;
 `;
 
-// Estilizando o input
+
 export const Input = styled.input`
   padding: 10px;
   border: 1px solid #ccc;
@@ -43,7 +41,7 @@ export const Input = styled.input`
   }
 `;
 
-// Estilizando o botão
+
 export const Button = styled.button`
   padding: 10px;
   background-color: #007bff;
@@ -59,7 +57,7 @@ export const Button = styled.button`
   }
 `;
 
-// Estilizando a mensagem de resultado
+
 export const Message = styled.p`
   margin-top: 20px;
   font-size: 16px;
